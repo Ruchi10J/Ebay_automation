@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Ebay Mobile Phone Purchase Assignment" parallel="tests">
+    <test name="EbayMobilePhonePurchase Chrome Test">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="tests.EbayTest" />
+        </classes>
+    </test>
+</suite>
